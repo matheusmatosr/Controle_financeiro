@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <C.FooterContainer>
       <C.FooterContent>
-        Desenvolvido por{" "}
+        @2022 | Desenvolvido por{" "}
         <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
           Matheus Matos
         </a>
