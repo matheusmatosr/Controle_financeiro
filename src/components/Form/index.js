@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Grid from "../Grid";
 import * as C from "./styles";
 
-const nome = 'Desenvolvido por Matheus Matos'
 const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
   const [desc, setDesc] = useState("");
   const [amount, setAmount] = useState("");
@@ -67,7 +66,6 @@ const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
         <C.Button onClick={handleSave}>ADICIONAR</C.Button>
       </C.Container>
       <Grid itens={transactionsList} setItens={setTransactionsList} />
-      <div align="center" id="comentario">{nome}</div>
     </>
   );
 };
